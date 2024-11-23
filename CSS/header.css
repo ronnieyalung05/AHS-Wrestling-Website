@@ -1,0 +1,76 @@
+/* BODY - GENERAL */
+body {
+    background-color: #fafafa;
+
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVBAR / HEADER */
+#header {
+    background-color: #B1040E;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    box-sizing: border-box;
+    height: 140px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-top: 5px solid black;
+    border-bottom: 3px solid black;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nav-logo:hover {
+    transform: scale(1.02);
+    transition: transform 0.1s ease;
+}
+
+#list-of-tabs {
+    display: flex; /* Makes content go horizontally */
+    justify-content: flex-end; /* Spaces content out */
+
+    align-items: center; /* Makes content centered */
+
+    list-style-type: none; /* Removes bullet points */
+}
+
+.nav-tab {
+    margin-right: 70px;
+}
+
+.nav-tab:first-child {
+    margin-left: 50px;
+}
+
+.nav-tab:last-child {
+    margin-right: 0; /* Remove the margin on the last item */
+}
+
+.a-tab {
+    font-size: 30px;
+    color: #fafafa;
+    text-decoration: none; /* Removes underline from link */
+
+    transition: color 0.15s ease;
+}
+
+.a-tab.active {
+    color: black;
+}
+
+.a-tab:visited {
+    color: #fafafa; /* Set visited link color to match the normal link color */
+}
+
+.a-tab:hover {
+    color: black;
+}
